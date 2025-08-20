@@ -10,7 +10,7 @@ interface State {
   people: Person[];
 }
 
-export default class Homework3 extends Component<{}, State> {
+export default class Exercise03 extends Component<{}, State> {
   constructor(props: {}) {
     super(props);
     this.state = {
@@ -51,3 +51,4 @@ export default class Homework3 extends Component<{}, State> {
     )
   }
 }
+
